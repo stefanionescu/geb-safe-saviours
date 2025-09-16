@@ -15,6 +15,3 @@ For more details on what saviours are and how they generally work, read the [off
 - **SystemCoinTargetUniswapV2SafeSaviour**: this saviour withdraws liquidity from Uniswap V2, swaps one of the tokens for the Safe's collateral and repays debt and/or tops up the Safe in order to save it
 - **YearnV3MaxSystemCoinSafeSaviour**: this saviour lends system coins in a Yearn v3 strategy vault and repays a Safe's debt when it's liquidated
 
-## Bug Bounty
-
-There's an [ongoing bug bounty program](https://immunefi.com/bounty/reflexer/) covering contracts from this repo.
